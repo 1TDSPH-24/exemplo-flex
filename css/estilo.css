@@ -46,3 +46,24 @@ a{
 }
 }
 
+h2{
+  text-align: center;
+  margin: 2%;
+}
+
+#pets{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+
+  figure{
+    flex:1 1 200px;
+    margin: 0 10px;
+  }
+
+  img{
+    max-width: 100%;
+    display: block;
+  }
+}
